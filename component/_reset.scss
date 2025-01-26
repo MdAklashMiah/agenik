@@ -1,0 +1,31 @@
+$bg-color: #001023;
+$primary:#90DD8C;
+$paragraph:#E7E7E7;
+$lightParagraph:#55565B;
+$black:#000000;
+$white:#FFFFFF;
+$semiBlack:#0E0E0E;
+
+
+@font-face {
+    font-family: GeneralSans;
+    src: url(../fonts/GeneralSans-Regular.otf);
+}
+@font-face {
+    font-family: NewYork;
+    src: url(../fonts/NewYork\ PERSONAL\ USE.otf);
+}
+
+@font-face {
+    font-family: EuclidCircularB;
+    src: url(../fonts/Euclid\ Circular\ B\ Regular.ttf);
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+body{
+    background: $bg-color;
+}

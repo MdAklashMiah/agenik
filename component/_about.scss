@@ -1,0 +1,81 @@
+#about{
+    padding-bottom: 150px;
+    .abouttitle{
+        margin-left: 138px;
+        h3{
+            font-family: "Mona Sans", serif;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            color: $primary;
+        }
+
+        h2{
+            font-family: "Mona Sans", serif;
+            font-size: 64px;
+            font-weight: 500;
+            line-height: 70px;
+            color: $white;
+
+            span{
+                font-family: NewYork;
+            }
+
+        }
+
+        p{
+            max-width: 600px;
+            font-family: "Kanit", serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 28px;
+            color: #C8C8CD;
+        }
+
+        .aboutCard{
+            padding: 40px;
+            background: #06192F;
+            border: 1px solid rgba(255, 255, 255, 0.20);
+            border-radius: 8px;
+
+            .item{
+                h4{
+                    font-family: "inter", serif;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    color: $white;
+                }
+            }
+
+            .itemTwo{
+                padding-left: 70px;
+                border-left: 1px solid rgba(255, 255, 255, 0.20);
+            }
+        }
+    }
+
+    .trustedClient{
+        margin-top: 150px;
+
+        .title{
+            h4{
+                max-width: 300px;
+                font-family: "Mona Sans", serif;
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 34px;
+                color: $white;
+
+                span{
+                    color: $primary;
+                }
+            }
+        }
+
+        .company{
+            margin-left: 116px;
+            gap: 147px;
+        }
+    }
+}

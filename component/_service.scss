@@ -1,0 +1,41 @@
+#service {
+  padding: 150px 0;
+  background: #06192f;
+
+  .ourServices {
+    ol {
+      counter-reset: section;
+      li {
+        font-family: "Mona Sans", serif;
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 70px;
+        color: $white;
+        margin-bottom: 48px;
+        list-style: none;
+        counter-increment: section;
+        margin: 10px 0;
+
+        &::before {
+          content: "(" counter(section) ")";
+          font-size: 20px;
+          font-weight: 500;
+          line-height: 30px;
+          margin-right: 80px;
+          position: relative;
+          bottom: 20px;
+        }
+        // &::marker{
+        //     font-size: 20px;
+        //     font-weight: 500;
+        //     line-height: 30px;
+        // }
+
+        span {
+          font-family: NewYork;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+#blog{
+    padding: 150px 0;
+    .title{
+        text-align: center;
+        margin-bottom: 70px;
+        h4{
+            font-family: "Mona Sans", serif;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            color: $primary;
+            margin-bottom: 28px;
+        }
+
+        h2{
+            font-family: "Mona Sans", serif;
+            font-size: 64px;
+            font-weight: 600;
+            line-height: 70px;
+            color: $white;
+
+            span{
+                font-family: NewYork;
+            }
+        }
+    }
+
+    .item{
+        h3{
+            font-family: "Mona Sans", serif;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 38px;
+            color: $white;
+            margin: 32px 0 28px;
+        }
+
+        button{
+            font-family: EuclidCircularB;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+            color: $paragraph;
+            padding: 11px 10px;
+            border: 1px solid rgba(255, 255, 255, 0.20);
+            border-radius: 30px;
+            margin-right: 26px;
+            background: transparent;
+        }
+
+        span{
+            font-family: "Inter", serif;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 24px;
+            color: #c8c8cd;
+        }
+    }
+}

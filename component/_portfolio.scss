@@ -1,0 +1,50 @@
+#portfolio{
+    padding: 150px 0;
+    text-align: center;
+    .title{
+        margin-bottom: 70px;
+        h4{
+            font-family: "Mona Sans", serif;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 24px;
+            color: $primary;
+        }
+
+        h2{
+            font-family: "Mona Sans", serif;
+            font-weight: 700;
+            line-height: 70px;
+            color: $white;
+            span{
+                font-family: newYork;
+                display: block;
+            }
+        }
+    }
+
+    .item{
+        text-align: start;
+        
+        h3{
+            font-family: "Mona Sans", serif;
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 38px;
+            color: $white;
+            margin-top: 32px;
+        }
+
+        h5{
+            font-family: EuclidCircularB;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            color: $paragraph;
+            margin-top: 20px;
+        }
+        &:nth-last-child(2n+1){
+            margin-top: 40px;
+        }
+    }
+}

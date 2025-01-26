@@ -1,0 +1,25 @@
+#slider{
+    padding: 32px 0;
+   background: $primary;
+    .slideText{
+        gap: 32px;
+        justify-content: space-around;
+        align-items: center;
+        h3{
+            font-family: "Mona Sans", serif;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 64px;
+            color: $black;
+            text-wrap: nowrap;
+
+        }
+
+        span{
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 64px;
+            color: $black;
+        }
+    }
+}
