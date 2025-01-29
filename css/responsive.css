@@ -1,0 +1,301 @@
+@media (min-width: 320px ) and (max-width:575px) {
+    header nav{
+        padding: 20px  !important;
+    }
+
+    .navbar-brand img{
+        width: 120px;
+    }
+
+    .navbar-collapse {
+        padding-bottom: 20px;
+        background: #001023;
+        position: relative;
+        z-index: 1;
+    }
+
+    header .navRight button {
+        padding: 8px 16px;
+        margin-top: 10px;
+    }
+
+    header .navRight span {
+        display: none;
+    }
+
+    nav .navbar-toggler {
+        background: white;
+        padding: 3px 6px;
+    }
+    nav .navbar-toggler .navbar-toggler-icon{
+        font-size: 14px;
+    }
+
+    
+    header nav ul {
+        gap: 10px;
+    }
+
+    header nav ul li a {
+        font-size: 14px;
+    }
+
+    #banner {
+        padding: 120px 20px 60px;
+    }
+
+    #banner .bannTitle h1 {
+        font-size: 54px;
+        line-height: 60px;
+    }
+
+    #banner .bannRight {
+       margin: 0;
+    }
+
+    #banner .bannRight .clientReviews p {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    #banner .bannRight hr {
+        margin: 0 0 10px 0 ;
+    }
+
+    #banner .bannRight p {
+        font-size: 18px;
+    }
+
+    #banner .bannerImage {
+        margin: 0;
+    }
+
+    #banner .bannerImage img{
+        width: 100%;
+    }
+
+    #about{
+        padding: 40px 0;
+    }
+
+
+    .aboutImage{
+        width: 100%;
+    }
+
+    #about .abouttitle {
+        margin-left: 0;
+    }
+
+    #about .abouttitle h3 {
+        font-size: 14px;
+        line-height: 0;
+    }
+
+    #about .abouttitle h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    #about .abouttitle p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #about .abouttitle .aboutCard {
+        padding: 10px;
+    }
+
+    #about .abouttitle .aboutCard .itemTwo {
+        padding-left: 10px;
+    }
+
+    #about .abouttitle .aboutCard .item h4 {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+
+    #about .trustedClient {
+        margin-top: 30px;
+    }
+
+    #about .trustedClient .title h4 {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #about .trustedClient .company {
+        margin-left: 10px;
+        gap: 10px;
+        align-items: center;
+    }
+
+    #about .trustedClient .company img{
+        width: 50px;
+        height: 50px;
+    }
+
+
+    #service {
+        padding: 40px 0;
+    }
+
+    .serviceImage{
+        width: 100%;
+    }
+
+    #service .ourServices ol li {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    #service .ourServices ol li::before {
+        font-size: 16px;
+        margin-right: 40px;
+        bottom: 3px;
+    }
+
+
+    #portfolio {
+        padding: 40px 0;
+    }
+
+    #portfolio .title {
+        margin-bottom: 20px;
+    }
+
+    #portfolio .title h4 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    #portfolio .title h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    #portfolio .item .portfolioImage img{
+        width: 100%;
+    }
+
+    #portfolio .item h3 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+
+    #portfolio .item h5 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 0;
+    }
+
+    #portfolio .item:nth-last-child(2n+1) {
+        margin-top: 10px;
+    }
+
+    #slider {
+        padding: 10px 0;
+    }
+
+    #slider .slideText h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #slider .slideText span {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    #experties {
+        padding: 40px 0;
+    }
+
+    #experties .expertiesImage {
+        margin-bottom: 20px;
+    }
+
+    #experties .expertiesImage img{
+        width: 100%;
+    }
+
+    #experties .text h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    #experties .progressBar {
+        padding-left: 0;
+    }
+
+    #experties .progressBar .item .title h3 {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    #experties .progressBar .item .bar {
+        height: 6px;
+    }
+
+    #testimonial {
+        padding: 40px 0;
+    }
+
+    #testimonial .heading {
+        margin-bottom: 20px;
+    }
+
+    #testimonial .title h4 {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    #testimonial .title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #testimonial .icon span {
+        width: 28px;
+        height: 28px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    #testimonial .clientSays .item {
+        padding: 28px 30px;
+    }
+
+    #testimonial .clientSays .item .quate {
+        gap: 12px;
+    }
+
+    #testimonial .clientSays .item .quate .qOne {
+        width: 20px;
+        height: 36px;
+        margin-bottom: 12px;
+    }
+
+    #testimonial .clientSays .item p {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+
+    #testimonial .clientSays .item .clientInfo .clientTitle h3 {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    #testimonial .clientSays .item .clientInfo .clientTitle h4 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+
+}
