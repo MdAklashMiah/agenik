@@ -268,6 +268,7 @@
 
     #testimonial .clientSays .item {
         padding: 28px 30px;
+        margin-bottom: 20px;
     }
 
     #testimonial .clientSays .item .quate {
@@ -297,5 +298,152 @@
         line-height: 16px;
     }
 
+
+    #blog {
+        padding: 40px 0;
+    }
+
+    #blog .title h4 {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 10px;
+    }
+
+    #blog .title h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #blog .title {
+        margin-bottom: 20px;
+    }
+
+    #blog .item{
+        margin-bottom: 20px;
+    }
+
+    #blog .item h3 {
+        font-size: 20px;
+        line-height: 24px;
+        margin: 10px 0 10px;
+    }
+
+    #blog .item img{
+        width: 100%;
+    }
+
+    #blog .item button {
+        font-size: 14px;
+        line-height: 14px;
+        padding: 10px 10px;
+        margin-right: 16px;
+    }
+
+    #blog .item span {
+        font-weight: 500;
+    }
+
+    footer #footerTop .footerTitle {
+        padding-top: 40px;
+    }
+
+
+    footer #footerTop .footerTitle h2 {
+        font-size: 54px;
+        line-height: 40px;
+        margin-bottom: 20px;
+    }
+
+    footer #footerTop hr {
+        margin-bottom: 40px;
+    }
+
+
+    footer #footerTop .icon img{
+        width: 150px;
+    }
+
+    footer #footerTop .icon p {
+        font-size: 14px;
+        line-height: 14px;
+        margin: 20px 0;
+    }
+
+    footer #footerTop .icon .socialIcon ul li {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    footer #footerTop .services .title h4 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    footer #footerTop .services ul li {
+        margin-bottom: 10px;
+    }
+
+    footer #footerTop .services ul li a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    footer #footerTop .address .title h4 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    footer #footerTop .address ul li {
+        margin-bottom: 10px;
+    }
+
+    footer #footerTop .address ul li a {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    footer #footerTop .subscribe .title h4 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    footer #footerTop .subscribe .inputBox input {
+        width: 100%;
+        padding: 10px 0 10px 16px;
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    footer #footerTop .subscribe .inputBox span {
+        right: 1px;
+        line-height: 42px;
+        font-size: 48px;
+    }
+
+
+    footer #footerTop .subscribe .checkbox {
+        margin-top: 10px;
+    }
+
+
+    footer #footerTop .subscribe .checkbox p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    footer #footerBottom {
+        padding: 10px 0;
+    }
+
+    footer #footerBottom .footerBottomText p {
+        font-size: 14px;
+        line-height: 20px;
+    }
 
 }
